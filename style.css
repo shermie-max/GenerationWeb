@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  /* 5a.	A background color other than white */
+  #my-container {
+  /*   height: 50px; */
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  /*   5i.	Each square should be vertically centered. The squares do NOT have to be horizontally centered. */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .square {
+  /*   width: 50px; */
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #square1 {
+    background-color: pink;
+  }
+  
+  #square2 {
+    background-color: purple;
+  }
+  
+  #square3 {
+    background-color: navy;
+    color: white;
+  }
